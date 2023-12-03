@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Under Construction</title>
+    <style>
+        @keyframes colorchange {
+            0% {color: red;}
+            20% {color: orange;}
+            40% {color: yellow;}
+            60% {color: green;}
+            80% {color: blue;}
+            100% {color: purple;}
+        }
+        h1 {
+            font-size: 3em;
+            animation: colorchange 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Website Under Construction</h1>
+    <p id="datetime"></p>
+
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt;
+    </script>
+</body>
+</html>
